@@ -1,0 +1,26 @@
+{
+  "name": "mp3-music-bot",
+  "version": "1.0.0",
+  "description": "a simple discord js music bot that plays a specific mp3 file",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js debug",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "js",
+    "music",
+    "mp3"
+  ],
+  "author": "Affehund",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.4.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "ytdl-core": "^4.0.4"
+  }
+}
